@@ -37,11 +37,11 @@ const float pi = 3.14159265f; // avec une infinité de nombre après
 
 # Vecteurs
 
-Fait TOUJOURS attention au repère dans lesquels tes vecteur sont. Regarde la section 3 pour plus de détails.
+Fais TOUJOURS attention au repère dans lesquels tes vecteurs sont. Regarde la section 3 pour plus de détails.
 
 ## Coordonées homogène 
 
-Un vecteur 3D est représenté par : (x, y, z), mais un vecteur 3D en coordonées homogène est représenté par : (x, y, z, w) :
+Un vecteur 3D est représenté par : (x, y, z), mais un vecteur 3D en coordonnées homogènes est représenté par : (x, y, z, w) :
 
 * w=0 : Le vecteur représente une direction
 * w=1 : Le vecteur représente une position
@@ -98,7 +98,7 @@ normalizedVector = vec * ( 1.0f / vec.length() )
 
 ## Multiplication Matrice à Matrices
 
-Example pour une matrice de translation :
+Exemple pour une matrice de translation :
 
 ![]({{site.baseurl}}/assets/images/math-cheatsheet/translationExamplePosition1.png)
 
